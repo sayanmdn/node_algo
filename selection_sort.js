@@ -9,7 +9,7 @@ for (i = 0; i < 1000; i++) {
     arr[i] = temp;
   } else break;
 }
-function sort(a) {
+function selection_sort(a) {
   var i = 0,
     j = 0,
     key;
@@ -29,4 +29,4 @@ function display(input) {
   console.log("The output of the array is");
   console.log(input.join(" "));
 }
-sort(arr);
+selection_sort(arr);
