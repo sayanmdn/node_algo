@@ -10,8 +10,6 @@ for (i = 0; i < 1000; i++) {
     arr[i] = temp;
   } else break;
 }
-//var arr = scanf("%d %d %d %d %d");
-
 function marge(a) {
   var i = 0,
     j = 0,
