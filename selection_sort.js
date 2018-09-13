@@ -1,5 +1,4 @@
 var scanf = require("scanf");
-
 var i,
   arr = [null, null],
   temp;
@@ -10,7 +9,7 @@ for (i = 0; i < 1000; i++) {
     arr[i] = temp;
   } else break;
 }
-function marge(a) {
+function sort(a) {
   var i = 0,
     j = 0,
     key;
@@ -26,8 +25,8 @@ function marge(a) {
   }
   display(a);
 }
-marge(arr);
 function display(input) {
   console.log("The output of the array is");
   console.log(input.join(" "));
 }
+sort(arr);
